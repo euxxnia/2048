@@ -1,0 +1,21 @@
+.box {
+  width: 130px;
+  height: 130px;
+  background-color: #cac1b5;
+  border: 12px solid #b9ada1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(4, 122px);
+  grid-template-rows: repeat(4, 122px);
+  gap: 0px;
+  width: 488px;
+  margin: 0 auto;
+}
